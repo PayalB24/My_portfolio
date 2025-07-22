@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // ✅ Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 
 function Home() {
     return (
@@ -18,13 +18,14 @@ function Home() {
                             Hi, I'm Payal Borde
                         </h1>
                         <p className="lead mb-5">
-                            Frontend & Backend Developer | DSA Enthusiast
+                            Passionate about turning ideas into interactive web experiences, I'm actively building skills in full stack development.
+With a strong interest in frontend, backend, and DSA, I'm committed to growing as a future-ready developer.
                         </p>
 
                         {/* Buttons Row */}
                         <div className="d-flex justify-content-center gap-3 flex-wrap">
                             <Link
-                                to="/projects" // ✅ Use 'to' instead of 'href'
+                                to="/projects" 
                                 className="btn"
                                 style={{
                                     backgroundColor: '#8b5cf6',
@@ -42,7 +43,7 @@ function Home() {
                             </Link>
 
                             <Link
-                                to="/contact" // ✅ Use 'to' for React Router navigation
+                                to="/contact" 
                                 className="btn"
                                 style={{
                                     backgroundColor: 'black',
